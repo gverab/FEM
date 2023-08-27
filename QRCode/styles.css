@@ -1,37 +1,40 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: Outfit, sans-serif;
-    background: hsl(212, 45%, 89%);
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 15px;
+  font-family: Outfit, sans-serif;
+  background: hsl(212, 45%, 89%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
 }
 
 .container {
-   max-width: 360px;
-   margin: 0 auto;
+  max-width: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .card {
-    width: 80%;
-    background: white;
-    padding: 18px;
-    border-radius: 17px;
-    text-align: center;  
-    margin: 0 1em;
+  width: 80%;
+  background: white;
+  padding: 18px;
+  border-radius: 17px;
+  text-align: center;  
+  margin: 0 1em;
 }
 
 .card img {
-    width: 100%;
-    border-radius: 12px;
+  width: 100%;
+  border-radius: 12px;
 }
 
 .text h3 {
@@ -43,11 +46,20 @@ body {
 }
 
 p {
-    color: hsl(220, 15%, 55%);
-    padding: 10px;
+  color: hsl(220, 15%, 55%);
+  padding: 10px;
 }
 
 .text {
-    padding: 22px 10px;
-    width: 100%;
+  padding: 22px 10px;
+  width: 100%;
 }
+
+.attribution { 
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); }
